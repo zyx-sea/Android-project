@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/input_1" />
+    <RadioGroup
+        android:id="@+id/radiogroup"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radiobut_2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/boy" />
+    </RadioGroup>
+
+    <RadioButton
+        android:id="@+id/radiobut_1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/girl" />
+
+    <TextView
+        android:id="@+id/hobby"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/input_2" />
+
+    <CheckBox
+        android:id="@+id/checkbox_1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dancing"/>
+    <CheckBox
+        android:id="@+id/checkbox_2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/swimming"/>
+    <CheckBox
+        android:id="@+id/checkbox_3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/drawing"/>
+    <CheckBox
+        android:id="@+id/checkbox_4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/singing"/>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/submit"
+        />
+
+</LinearLayout>

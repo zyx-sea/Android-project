@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TabHost</string>
+    <string name="button">按钮</string>
+    <string name="username">用户名：</string>
+    <string name="password">密码：</string>
+    <string name="input_1">请输入用户名</string>
+    <string name="input_2">请输入密码</string>
+    <string name="submit">登陆</string>
+    <string name="reset">取消</string>
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">短信发送页面</string>
+    <string name="phone">手机号</string>
+    <string name="content">内容</string>
+    <string name="buttom">发送 </string>
+    <string name="success">发送成功 </string>
+</resources>
