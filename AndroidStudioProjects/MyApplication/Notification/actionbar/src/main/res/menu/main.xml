@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--定義一個可選菜單項-->
+    <item
+        android:icon="@drawable/yiliao"
+        android:showAsAction="always|withText"
+        android:title="醫療服務">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/menu_item_1"
+                    android:icon="@drawable/bingli"
+                    android:title="病歷記錄" />
+                <item
+                    android:id="@+id/menu_item_2"
+                    android:icon="@drawable/chayao"
+                    android:title="查詢藥物" />
+                <item
+                    android:id="@+id/menu_item_3"
+                    android:icon="@drawable/yuyue"
+                    android:title="預約檢測" />
+            </group>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/menu_item_4"
+        android:icon="@drawable/hujiu"
+        android:title="緊急急救" />
+</menu>
