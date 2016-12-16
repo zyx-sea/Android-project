@@ -1,7 +1,0 @@
-<resources>
-    <string name="app_name">Layout_table</string>
-    <string name="username">账号：</string>
-    <string name="password">密码：</string>
-    <string name="submit">登录</string>
-    <string name="button">按钮</string>
-</resources>
